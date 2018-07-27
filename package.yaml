@@ -1,0 +1,22 @@
+name:                bitcoinh
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/CaptJakk/bitcoinh#readme
+license:             BSD3
+author:              Keagan McClelland
+maintainer:          keagan.mcclelland@gmail.com
+copyright:           (c) 2018 Keagan McClelland
+category:            bitcoin
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - foundation
+
+library:
+  bitcoinh:
+    source-dirs:      src
+    exposed-modules:
+      - Network.Bitcoin.Transaction
