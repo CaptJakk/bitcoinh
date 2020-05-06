@@ -1,0 +1,32 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 1e350833e1533a429d54a062408e1b9b76524002f01b9db91c59e2c76293f425
+
+name:           hbtc
+version:        0.1.0.0
+category:       bitcoin
+homepage:       https://github.com/ProofOfKeags/hbtc
+author:         Keagan McClelland
+maintainer:     keagan.mcclelland@gmail.com
+copyright:      (c) 2018-2020 Keagan McClelland
+license:        UNLICENSE
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+library
+  exposed-modules:
+      Bitcoin.Message
+  other-modules:
+      Paths_hbtc
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , rio
+  default-language: Haskell2010

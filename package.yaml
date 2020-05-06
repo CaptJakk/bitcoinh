@@ -1,22 +1,19 @@
-name:                bitcoinh
+name:                hbtc
 version:             0.1.0.0
 #synopsis:
 #description:
-homepage:            https://github.com/CaptJakk/bitcoinh#readme
-license:             BSD3
+homepage:            https://github.com/ProofOfKeags/hbtc
+license:             UNLICENSE
 author:              Keagan McClelland
 maintainer:          keagan.mcclelland@gmail.com
-copyright:           (c) 2018 Keagan McClelland
+copyright:           (c) 2018-2020 Keagan McClelland
 category:            bitcoin
 extra-source-files:
 - README.md
 
 dependencies:
   - base >= 4.7 && < 5
-  - foundation
+  - rio
 
 library:
-  bitcoinh:
-    source-dirs:      src
-    exposed-modules:
-      - Network.Bitcoin.Transaction
+  source-dirs:      src
